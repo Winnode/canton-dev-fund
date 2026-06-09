@@ -20,7 +20,7 @@ This proposal requests **240,000 CC** across three milestones over a 9-week peri
 
 ### Evidence of Technical Capability (Working Prototype)
 
-This is not a description-only proposal. A working prototype of the Milestone 1 surface already exists and is runnable today:
+This is not a description-only proposal. A working prototype of the Milestone 1 surface already exists and is runnable today. **Public repository: https://github.com/Winnode/coot** (Apache-2.0).
 
 | Evidence | What it demonstrates |
 | --- | --- |
@@ -31,7 +31,7 @@ This is not a description-only proposal. A working prototype of the Milestone 1 
 | `healthcheck.py`, `backup.sh`, `restore.sh` | Operational-readiness report and consistent backup + checksum-verified restore (Milestone 2 preview) |
 | Helm chart skeleton | Intended Kubernetes packaging shape (Milestone 3 preview) |
 
-The prototype is intentionally read-only and additive: it only consumes endpoints a Canton node already exposes and never modifies node binaries, the protocol, ledger state, reward logic, or traffic accounting. The funded milestones harden and broaden this prototype into production-grade tooling with full validator/SV coverage, tested DR, and Kubernetes packaging. *(The public repository URL will be added here on submission.)*
+The prototype is intentionally read-only and additive: it only consumes endpoints a Canton node already exposes and never modifies node binaries, the protocol, ledger state, reward logic, or traffic accounting. The funded milestones harden and broaden this prototype into production-grade tooling with full validator/SV coverage, tested DR, and Kubernetes packaging.
 
 ---
 
