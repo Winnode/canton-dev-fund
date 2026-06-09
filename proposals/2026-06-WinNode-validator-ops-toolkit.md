@@ -4,7 +4,7 @@
 **Status:** Draft
 **Created:** 2026-06-09
 **Label:** node-deployment-operations
-**Champion:** _Seeking Champion from the **Node Deployment & Operations** SIG._ Candidate reviewers in that SIG include operators well placed to evaluate this work — e.g. Andrew Pohl (Liquify), Caleb Bolden / Marijus Kasperavicius (Blockdaemon), Jeremy Alons (Cumberland), Lucas Naundorf (FCS), Stanislav German-Evtushenko (SBI Security Solutions), Vinh Nguyễn (Five North), and Zhe Li (Gateway.FM). See Notes for Reviewers.
+**Champion:** _To be confirmed._ Outreach to the Node Deployment & Operations SIG is in progress; the field will be updated with the confirmed Tech & Ops Committee champion before the PR is reopened for review. See Notes for Reviewers for candidate champions and context.
 
 ---
 
@@ -226,7 +226,7 @@ An open-source, vendor-neutral toolkit that builds on existing prior art is the 
 
 ## Notes for Reviewers
 
-- **SIG alignment:** This proposal aligns with the **Node Deployment & Operations** SIG and is seeking a Champion from that group. We welcome an introduction via the dev-fund mailing list or the relevant SIG Slack channel.
+- **SIG alignment & champion request:** This proposal aligns with the **Node Deployment & Operations** SIG. We are actively seeking a Tech & Ops Committee champion and welcome an introduction via the dev-fund mailing list (`grants-discuss@lists.sync.global`) or the SIG Slack channel. Candidate champions in the relevant SIGs whose expertise fits this work include Stanislav German-Evtushenko (SBI Security Solutions, `stas-sbi`), Itai Segall (Digital Asset, `isegall-da`), Andrew Pohl (Liquify), Caleb Bolden / Marijus Kasperavicius (Blockdaemon), Jeremy Alons (Cumberland), Lucas Naundorf (FCS), Vinh Nguyễn (Five North), and Zhe Li (Gateway.FM). We would be grateful for any of them, or another Committee member, to consider championing this proposal.
 - **Production track record (evidence):** WinNode operates validator infrastructure across 28+ networks and runs live Canton infrastructure (the Grofty wallet's backend). The Milestone 1 surface already exists as a runnable prototype (see Evidence of Technical Capability above); the funded work hardens and broadens it. We can share node details, uptime history, and the prototype repository on request.
 - **Single objective:** COOT is scoped to node operations & observability only, and explicitly excludes wallet/dApp/protocol work, to keep milestones objectively verifiable.
 - **Builds on prior art:** COOT references and incorporates existing community dashboards and official DA/Splice DR documentation rather than duplicating them (see Prior Art & Differentiation).
